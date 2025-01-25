@@ -1,4 +1,5 @@
 'use strict'
+import grid from './grid.js';
 
 export default {
   '/': {
@@ -8,5 +9,6 @@ export default {
   '/about': {
     H3: { text: 'This is Symbols starter-kit' },
     P: { text: 'Lorem ipsum dolor sit amet' }
-  }
+  },
+  '/grid': grid,
 }

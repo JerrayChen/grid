@@ -26,25 +26,39 @@ const GRADIENT = {}
 const THEME = {
   document: {
     '@dark': {
+      background: 'black',
       color: 'white',
-      background: 'black'
+      boxShadow: '0 1px 3px #495057',
     },
     '@light': {
       background: 'white',
-      color: 'black'
+      color: 'black',
+      boxShadow: '0 1px 3px rgba(0, 0, 0, 0.2)',
     },
     '@midnight': {
       background: '#112233',
-      color: 'white'
+      color: 'white',
+      boxShadow: '0 1px 3px #495057',
     }
   }
 }
 
 /**
  * Fonts
- * @tutorial https://docs.symbols.app/font
+ * @tutorial https://docs.symbols.app/doc/font
  */
-const FONT = {}
+const FONT = {
+  Europa: [{
+    url: './src/fonts/europa-light-webfont.woff',
+    fontWeight: 300
+  }, {
+    url: './src/fonts/europa-regular-webfont.woff',
+    fontWeight: 400
+  }, {
+    url: './src/fonts/europa-bold-webfont.woff',
+    fontWeight: 600
+  }]
+}
 
 /**
  * Font families
